@@ -9,7 +9,7 @@ import boto3
 from dotenv import load_dotenv
 from datetime import datetime
 
-identificador = "kaio"
+identificador = "Luã"
 hostname = socket.gethostname()
 
 # ===================== COLETA =====================
@@ -128,11 +128,14 @@ def salvar_csv(caminho, dados):
 # ===================== LOOP PRINCIPAL =====================
 def gerar_nome_arquivo(identificador):
     timestamp = time.strftime('%Y%m%d_%H%M%S')
-    return f"{identificador}_{timestamp}.csv"
+    if not os.path.exists(f"./amostras/{identificador}"):
+        os.makedirs(f'./amostras/{identificador}')
+
+
+    return os.path.join(f"./amostras/{identificador}/{identificador}_{timestamp}.csv")
 
 
 def main():
-    identificador = "kaio"
     caminho_csv = gerar_nome_arquivo(identificador)
     contador = 0
 

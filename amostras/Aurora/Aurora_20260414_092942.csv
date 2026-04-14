@@ -1,0 +1,2 @@
+datahora,cpu_perc,cpu_freq,ram_perc,ram_usada,ram_livre,disco_perc,disco_usado,disco_livre,disco_total,disco_throughput,upload,download,network_total,conexoes,total_processos,identificador,hostname
+2026-04-14 09:29:42,8.0,2400.0,61.5,10388684800,6501638144,78.9,403453014016,107611389952,511064403968,0.3,0.0,0.0,0.0,98,303,Aurora,laptop-NZ13
