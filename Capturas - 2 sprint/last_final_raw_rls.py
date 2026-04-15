@@ -9,7 +9,7 @@ import boto3
 from dotenv import load_dotenv
 from datetime import datetime
 
-identificador = "Aurora"
+identificador = "Kaio"
 hostname = socket.gethostname()
 
 # ===================== COLETA =====================

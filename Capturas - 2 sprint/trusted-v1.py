@@ -2,8 +2,9 @@ import os
 import pandas as pd
 import time
 
-caminho_amostras = "./empresa_teste"
+caminho_amostras = f"./empresaX"
 nome_trusted = "trusted_v1.csv"
+nome_empresa= ""
 
 
 diretorio_trusted = os.path.join(caminho_amostras, "trusted")
