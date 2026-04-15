@@ -2,6 +2,7 @@ import os
 import pandas as pd
 
 caminho_amostras = "./amostras"
+nome_empresa = "Atmos_teste"
 
 diretorio_trusted = os.path.join(caminho_amostras, "trusted")
 os.makedirs(diretorio_trusted, exist_ok=True)
@@ -19,6 +20,7 @@ for root, dirs, files in os.walk(caminho_amostras):
 
             try:
                 df = pd.read_csv(caminho_amostras)
+                df["empresa"] = nome_empresa
                 dataframe.append(df)
             except Exception as e:
                 print(f"Erro ao ler {caminho_amostras}: {e}")
