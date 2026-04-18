@@ -45,6 +45,7 @@ if dataframe:
         df_final['disco_usado'] = round(df_final['disco_usado'].apply(lambda x: (x / 10**9)), 2)
         df_final['disco_livre'] = round(df_final['disco_livre'].apply(lambda x: (x / 10**9)), 2)
         df_final['disco_total'] = round(df_final['disco_total'].apply(lambda x: (x / 10**9)), 2)
+        df_final['ram_total'] = df_final['ram_usada'] + df_final['ram_livre']
 
         print("Unidades de medidas convertidaas com sucesso em")
     except:
