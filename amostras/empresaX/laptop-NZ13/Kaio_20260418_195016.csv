@@ -1,2 +1,0 @@
-datahora,cpu_perc,cpu_freq,ram_perc,ram_usada,ram_livre,disco_perc,disco_usado,disco_livre,disco_total,disco_throughput,upload,download,network_total,conexoes,total_processos,identificador,hostname,empresa
-2026-04-18 19:50:16,6.4,1520.0,77.8,13144297472,3746025472,64.0,327245963264,183818440704,511064403968,0.0,0.0,0.0,0.0,133,384,Kaio,laptop-NZ13,empresaX

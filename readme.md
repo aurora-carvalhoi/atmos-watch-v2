@@ -21,12 +21,24 @@ Garantir visibilidade e análise do desempenho de servidores através de:
 
 ## 👥 Equipe
 
+### 2º Sprint
+
 - Kaio Rodrigues Rocha  
 - Aurora de Carvalho de Inacio  
 - Anderson Augusto Lopes  
 - Matheus Campos de Menezes  
 - Luiz Vittor Marques Ribeiro  
 - Luana Gomes de Araujo  
+
+---
+### 1º Sprint
+
+- Guilherme Souto de Souza
+- Guilherme Ornaghi
+- Geovanna Victorianna de Oliveira
+- Marley de Souza Santos
+- Samara Vicky da Silva Mendonça
+- Renan Minosso Silvaq
 
 ---
 
