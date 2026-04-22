@@ -38,7 +38,7 @@ Garantir visibilidade e análise do desempenho de servidores através de:
 - Geovanna Victorianna de Oliveira
 - Marley de Souza Santos
 - Samara Vicky da Silva Mendonça
-- Renan Minosso Silvaq
+- Renan Minosso Silva
 
 ---
 
