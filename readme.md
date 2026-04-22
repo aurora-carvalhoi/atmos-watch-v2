@@ -25,7 +25,7 @@ Garantir visibilidade e análise do desempenho de servidores através de:
 
 - Kaio Rodrigues Rocha  
 - Aurora de Carvalho de Inacio  
-- Anderson Augusto Lopes  
+- Anderson Augusto Lopes 
 - Matheus Campos de Menezes  
 - Luiz Vittor Marques Ribeiro  
 - Luana Gomes de Araujo  
