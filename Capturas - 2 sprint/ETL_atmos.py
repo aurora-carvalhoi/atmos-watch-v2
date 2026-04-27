@@ -9,6 +9,7 @@ from datetime import datetime, UTC
 # =========================
 # CONFIGURAÇÃO
 # =========================
+
 load_dotenv()
 
 NOME_BUCKET = os.getenv("S3_BUCKET_NAME")
@@ -220,11 +221,19 @@ def construir_json_client(df, empresa):
                 "cpu_percent": group["cpu_percent"].tolist(),
                 "cpu_freq": group["cpu_freq_mhz"].tolist(),
                 "cpu_percentil_maquina": round(group["cpu_percent"].quantile(0.90), 2),
+                "cpu_pico": [
+                    group["cpu_percent"].max(),
+                    group["cpu_percent"].min()
+                ],
 
                 "ram_perc": group["ram_percent"].tolist(),
                 "ram_usada": group["ram_usada_gb"].tolist(),
                 "ram_livre": group["ram_livre_gb"].tolist(),
                 "ram_percentil_maquina": round(group["ram_percent"].quantile(0.90), 2),
+                "ram_pico": [
+                    group["ram_percent"].max(),
+                    group["ram_percent"].min()
+                ],
 
                 "disco_porcentagem": group["disco_percent"].tolist(),
                 "disco_usado": group["disco_usado_gb"].tolist(),
@@ -232,15 +241,27 @@ def construir_json_client(df, empresa):
                 "disco_total": group["disco_total_gb"].tolist(),
                 "disco_throughput": group["disco_throughput_mb_s"].tolist(),
                 "disco_percentil_maquina": round(group["disco_throughput_mb_s"].quantile(0.90), 2 ),
+                "diskIO_pico": [
+                    group["disco_throughput_mb_s"].max(),
+                    group["disco_throughput_mb_s"].min()
+                ],
 
                 "rede_upload": group["rede_upload_mb_s"].tolist(),
                 "rede_download": group["rede_download_mb_s"].tolist(),
                 "rede_network_total": group["rede_total_mb_s"].tolist(),
                 "rede_conexoes": group["rede_conexoes"].tolist(),
                 "rede_percentil": round(group["rede_total_mb_s"].quantile(0.90), 2),
+                "rede_pico": [
+                    group["rede_total_mb_s"].max(),
+                    group["rede_total_mb_s"].min()
+                ],
 
                 "processos": group["processos"].tolist(),
                 "processos_percentil": round(group["processos"].quantile(0.90), 2),
+                "processos_pico": [
+                    int(group["processos"].min()),
+                    int(group["processos"].max())
+                ],
                 "datahora": group["timestamp"].tolist()
             }
         }
@@ -283,8 +304,8 @@ def salvar_client_s3(json_data, empresa):
     """
     key = f"client/{empresa}/client.json"
     # # salvar local para teste
-    # with open('Json_s3.json', 'w', encoding="utf-8") as a:
-    #     json.dump(json_data, a, indent=4, ensure_ascii=False)
+    with open('Json_s3.json', 'w', encoding="utf-8") as a:
+        json.dump(json_data, a, indent=4, ensure_ascii=False)
     s3.put_object(
         Bucket=NOME_BUCKET,
         Key=key,
