@@ -220,7 +220,7 @@ def construir_json_client(df, empresa):
             "metricas": {
                 "cpu_percent": group["cpu_percent"].tolist(),
                 "cpu_freq": group["cpu_freq_mhz"].tolist(),
-                "cpu_percentil_maquina": round(group["cpu_percent"].quantile(0.90), 2),
+                "cpu_percentil_maquina": round(group["cpu_percent"].quantile(0.99), 2),
                 "cpu_pico": [
                     group["cpu_percent"].max(),
                     group["cpu_percent"].min()
@@ -240,7 +240,7 @@ def construir_json_client(df, empresa):
                 "disco_livre": group["disco_livre_gb"].tolist(),
                 "disco_total": group["disco_total_gb"].tolist(),
                 "disco_throughput": group["disco_throughput_mb_s"].tolist(),
-                "disco_percentil_maquina": round(group["disco_throughput_mb_s"].quantile(0.90), 2 ),
+                "disco_percentil_maquina": round(group["disco_throughput_mb_s"].quantile(0.95), 2 ),
                 "diskIO_pico": [
                     group["disco_throughput_mb_s"].max(),
                     group["disco_throughput_mb_s"].min()
@@ -259,8 +259,8 @@ def construir_json_client(df, empresa):
                 "processos": group["processos"].tolist(),
                 "processos_percentil": round(group["processos"].quantile(0.90), 2),
                 "processos_pico": [
-                    int(group["processos"].min()),
-                    int(group["processos"].max())
+                    int(group["processos"].max()),
+                    int(group["processos"].min())
                 ],
                 "datahora": group["timestamp"].tolist()
             }
