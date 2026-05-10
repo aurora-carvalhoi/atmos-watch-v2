@@ -1,0 +1,7103 @@
+{
+  "timestamp": "2026-05-10T13:44:55.780182",
+  "servidor": "laptop-NZ13",
+  "sistema": "Windows",
+  "versao_sistema": "10.0.26200",
+  "arquitetura": "AMD64",
+  "cpu_total": {
+    "uso_percentual": 6.8,
+    "nucleos_fisicos": 8,
+    "nucleos_totais": 12
+  },
+  "ram_total": {
+    "total_mb": 16108,
+    "usado_mb": 11941,
+    "disponivel_mb": 4167,
+    "uso_percentual": 74.1
+  },
+  "disco_total": {
+    "total_gb": 476,
+    "usado_gb": 336,
+    "livre_gb": 140,
+    "uso_percentual": 70.6
+  },
+  "processos": [
+    {
+      "pid": 0,
+      "nome": "System Idle Process",
+      "usuario": "NT AUTHORITY\\SYSTEM",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1123.1
+      },
+      "ram": {
+        "uso_mb": 0,
+        "virtual_mb": 0
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 36,
+      "subprocessos": 6,
+      "tempo_execucao_segundos": 1778431496,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10680,
+      "nome": "python.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 89.3
+      },
+      "ram": {
+        "uso_mb": 24,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 1.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 6,
+      "prioridade": 32
+    },
+    {
+      "pid": 20940,
+      "nome": "Rainmeter.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 3.2
+      },
+      "ram": {
+        "uso_mb": 65,
+        "virtual_mb": 64
+      },
+      "disco": {
+        "leitura_mb": 11.36,
+        "escrita_mb": 0.38
+      },
+      "threads": 39,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190472,
+      "prioridade": 32
+    },
+    {
+      "pid": 13916,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 2.1
+      },
+      "ram": {
+        "uso_mb": 217,
+        "virtual_mb": 178
+      },
+      "disco": {
+        "leitura_mb": 97.03,
+        "escrita_mb": 82.27
+      },
+      "threads": 70,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 74646,
+      "prioridade": 32
+    },
+    {
+      "pid": 9544,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.9
+      },
+      "ram": {
+        "uso_mb": 551,
+        "virtual_mb": 518
+      },
+      "disco": {
+        "leitura_mb": 561.24,
+        "escrita_mb": 1041.66
+      },
+      "threads": 25,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1417,
+      "prioridade": 32
+    },
+    {
+      "pid": 5432,
+      "nome": "MsMpEng.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.6
+      },
+      "ram": {
+        "uso_mb": 265,
+        "virtual_mb": 348
+      },
+      "disco": {
+        "leitura_mb": 16431.93,
+        "escrita_mb": 814.51
+      },
+      "threads": 56,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 21456,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.6
+      },
+      "ram": {
+        "uso_mb": 260,
+        "virtual_mb": 214
+      },
+      "disco": {
+        "leitura_mb": 50.68,
+        "escrita_mb": 452.89
+      },
+      "threads": 27,
+      "subprocessos": 4,
+      "tempo_execucao_segundos": 1394,
+      "prioridade": 32
+    },
+    {
+      "pid": 4,
+      "nome": "System",
+      "usuario": "NT AUTHORITY\\SYSTEM",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.4
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 0
+      },
+      "disco": {
+        "leitura_mb": 153.63,
+        "escrita_mb": 905.37
+      },
+      "threads": 347,
+      "subprocessos": 4,
+      "tempo_execucao_segundos": 1778431496,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2020,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.1
+      },
+      "ram": {
+        "uso_mb": 135,
+        "virtual_mb": 112
+      },
+      "disco": {
+        "leitura_mb": 2.84,
+        "escrita_mb": 10.93
+      },
+      "threads": 30,
+      "subprocessos": 5,
+      "tempo_execucao_segundos": 1413,
+      "prioridade": 32
+    },
+    {
+      "pid": 16632,
+      "nome": "OneDrive.Sync.Service.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 1.1
+      },
+      "ram": {
+        "uso_mb": 33,
+        "virtual_mb": 121
+      },
+      "disco": {
+        "leitura_mb": 16.34,
+        "escrita_mb": 5.21
+      },
+      "threads": 36,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190531,
+      "prioridade": 32
+    },
+    {
+      "pid": 1224,
+      "nome": "csrss.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.9
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 1.36,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4816,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.7
+      },
+      "ram": {
+        "uso_mb": 33,
+        "virtual_mb": 32
+      },
+      "disco": {
+        "leitura_mb": 50.52,
+        "escrita_mb": 19.1
+      },
+      "threads": 12,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5304,
+      "nome": "RvControlSvc.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.7
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.71,
+        "escrita_mb": 0.0
+      },
+      "threads": 21,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 26012,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.6
+      },
+      "ram": {
+        "uso_mb": 423,
+        "virtual_mb": 352
+      },
+      "disco": {
+        "leitura_mb": 1011.48,
+        "escrita_mb": 20.8
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1420,
+      "prioridade": 32768
+    },
+    {
+      "pid": 17108,
+      "nome": "WhatsApp.Root.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.6
+      },
+      "ram": {
+        "uso_mb": 204,
+        "virtual_mb": 131
+      },
+      "disco": {
+        "leitura_mb": 23.12,
+        "escrita_mb": 24.33
+      },
+      "threads": 37,
+      "subprocessos": 8,
+      "tempo_execucao_segundos": 190568,
+      "prioridade": 64
+    },
+    {
+      "pid": 8456,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.6
+      },
+      "ram": {
+        "uso_mb": 20,
+        "virtual_mb": 8
+      },
+      "disco": {
+        "leitura_mb": 384.63,
+        "escrita_mb": 50.54
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10216,
+      "nome": "explorer.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.3
+      },
+      "ram": {
+        "uso_mb": 318,
+        "virtual_mb": 512
+      },
+      "disco": {
+        "leitura_mb": 56.53,
+        "escrita_mb": 7.9
+      },
+      "threads": 97,
+      "subprocessos": 18,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": 32
+    },
+    {
+      "pid": 6668,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.3
+      },
+      "ram": {
+        "uso_mb": 180,
+        "virtual_mb": 122
+      },
+      "disco": {
+        "leitura_mb": 131.05,
+        "escrita_mb": 68.45
+      },
+      "threads": 58,
+      "subprocessos": 17,
+      "tempo_execucao_segundos": 1417,
+      "prioridade": 32
+    },
+    {
+      "pid": 29004,
+      "nome": "CrossDeviceService.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.2
+      },
+      "ram": {
+        "uso_mb": 50,
+        "virtual_mb": 29
+      },
+      "disco": {
+        "leitura_mb": 1.93,
+        "escrita_mb": 0.03
+      },
+      "threads": 17,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 178865,
+      "prioridade": 32
+    },
+    {
+      "pid": 16028,
+      "nome": "LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.2
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 46
+      },
+      "disco": {
+        "leitura_mb": 18.42,
+        "escrita_mb": 0.01
+      },
+      "threads": 39,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190587,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 30212,
+      "nome": "WmiPrvSE.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.2
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 66,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 30564,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 918,
+        "virtual_mb": 885
+      },
+      "disco": {
+        "leitura_mb": 160.34,
+        "escrita_mb": 10.43
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1390,
+      "prioridade": 32
+    },
+    {
+      "pid": 3504,
+      "nome": "MemCompression",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 757,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 74,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 6832,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 346,
+        "virtual_mb": 318
+      },
+      "disco": {
+        "leitura_mb": 51.01,
+        "escrita_mb": 658.17
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5393,
+      "prioridade": 64
+    },
+    {
+      "pid": 11164,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 322,
+        "virtual_mb": 417
+      },
+      "disco": {
+        "leitura_mb": 167.22,
+        "escrita_mb": 1685.03
+      },
+      "threads": 31,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 82321,
+      "prioridade": 32
+    },
+    {
+      "pid": 26188,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 302,
+        "virtual_mb": 245
+      },
+      "disco": {
+        "leitura_mb": 16.06,
+        "escrita_mb": 332.9
+      },
+      "threads": 27,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2655,
+      "prioridade": 64
+    },
+    {
+      "pid": 29384,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 257,
+        "virtual_mb": 207
+      },
+      "disco": {
+        "leitura_mb": 489.87,
+        "escrita_mb": 58.2
+      },
+      "threads": 82,
+      "subprocessos": 7,
+      "tempo_execucao_segundos": 2660,
+      "prioridade": 32
+    },
+    {
+      "pid": 2872,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 233,
+        "virtual_mb": 278
+      },
+      "disco": {
+        "leitura_mb": 318.34,
+        "escrita_mb": 2.94
+      },
+      "threads": 23,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2652,
+      "prioridade": 32768
+    },
+    {
+      "pid": 16776,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 224,
+        "virtual_mb": 113
+      },
+      "disco": {
+        "leitura_mb": 200.09,
+        "escrita_mb": 276.18
+      },
+      "threads": 46,
+      "subprocessos": 13,
+      "tempo_execucao_segundos": 5574,
+      "prioridade": 32
+    },
+    {
+      "pid": 17112,
+      "nome": "Raycast.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 207,
+        "virtual_mb": 153
+      },
+      "disco": {
+        "leitura_mb": 7.97,
+        "escrita_mb": 4.18
+      },
+      "threads": 67,
+      "subprocessos": 23,
+      "tempo_execucao_segundos": 74652,
+      "prioridade": 32
+    },
+    {
+      "pid": 5660,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 197,
+        "virtual_mb": 155
+      },
+      "disco": {
+        "leitura_mb": 3.78,
+        "escrita_mb": 9.54
+      },
+      "threads": 27,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5572,
+      "prioridade": 64
+    },
+    {
+      "pid": 1880,
+      "nome": "dwm.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 164,
+        "virtual_mb": 433
+      },
+      "disco": {
+        "leitura_mb": 31.05,
+        "escrita_mb": 0.0
+      },
+      "threads": 28,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 29524,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 155,
+        "virtual_mb": 93
+      },
+      "disco": {
+        "leitura_mb": 1.87,
+        "escrita_mb": 19.37
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1203,
+      "prioridade": 64
+    },
+    {
+      "pid": 28028,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 145,
+        "virtual_mb": 213
+      },
+      "disco": {
+        "leitura_mb": 1239.9,
+        "escrita_mb": 46.28
+      },
+      "threads": 22,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5576,
+      "prioridade": 32768
+    },
+    {
+      "pid": 29044,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 132,
+        "virtual_mb": 103
+      },
+      "disco": {
+        "leitura_mb": 2.48,
+        "escrita_mb": 4.55
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 4967,
+      "prioridade": 64
+    },
+    {
+      "pid": 13588,
+      "nome": "StartMenuExperienceHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 130,
+        "virtual_mb": 104
+      },
+      "disco": {
+        "leitura_mb": 18.35,
+        "escrita_mb": 0.31
+      },
+      "threads": 18,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 16948,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 130,
+        "virtual_mb": 85
+      },
+      "disco": {
+        "leitura_mb": 2.85,
+        "escrita_mb": 7.62
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1393,
+      "prioridade": 32
+    },
+    {
+      "pid": 27296,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 125,
+        "virtual_mb": 88
+      },
+      "disco": {
+        "leitura_mb": 92.65,
+        "escrita_mb": 15.99
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1419,
+      "prioridade": 32
+    },
+    {
+      "pid": 6508,
+      "nome": "node.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 118,
+        "virtual_mb": 214
+      },
+      "disco": {
+        "leitura_mb": 19.21,
+        "escrita_mb": 53.61
+      },
+      "threads": 55,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 74648,
+      "prioridade": 32
+    },
+    {
+      "pid": 11748,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 113,
+        "virtual_mb": 29
+      },
+      "disco": {
+        "leitura_mb": 0.4,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 227,
+      "prioridade": 32
+    },
+    {
+      "pid": 21000,
+      "nome": "powershell.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 105,
+        "virtual_mb": 84
+      },
+      "disco": {
+        "leitura_mb": 0.54,
+        "escrita_mb": 0.04
+      },
+      "threads": 15,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 1131,
+      "prioridade": 32
+    },
+    {
+      "pid": 10920,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 102,
+        "virtual_mb": 83
+      },
+      "disco": {
+        "leitura_mb": 6786.87,
+        "escrita_mb": 2101.89
+      },
+      "threads": 54,
+      "subprocessos": 7,
+      "tempo_execucao_segundos": 190492,
+      "prioridade": 32
+    },
+    {
+      "pid": 16700,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 102,
+        "virtual_mb": 223
+      },
+      "disco": {
+        "leitura_mb": 1557.51,
+        "escrita_mb": 23.13
+      },
+      "threads": 23,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190493,
+      "prioridade": 32768
+    },
+    {
+      "pid": 11344,
+      "nome": "Microsoft.AAD.BrokerPlugin.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 100,
+        "virtual_mb": 274
+      },
+      "disco": {
+        "leitura_mb": 1.77,
+        "escrita_mb": 1.38
+      },
+      "threads": 38,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 7116,
+      "prioridade": 32
+    },
+    {
+      "pid": 13580,
+      "nome": "SearchHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 87,
+        "virtual_mb": 87
+      },
+      "disco": {
+        "leitura_mb": 11.01,
+        "escrita_mb": 4.91
+      },
+      "threads": 14,
+      "subprocessos": 6,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 3772,
+      "nome": "powershell.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 84,
+        "virtual_mb": 63
+      },
+      "disco": {
+        "leitura_mb": 0.54,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1386,
+      "prioridade": 32
+    },
+    {
+      "pid": 28952,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 82,
+        "virtual_mb": 60
+      },
+      "disco": {
+        "leitura_mb": 0.08,
+        "escrita_mb": 0.02
+      },
+      "threads": 19,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 10,
+      "prioridade": 32
+    },
+    {
+      "pid": 25228,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 76,
+        "virtual_mb": 71
+      },
+      "disco": {
+        "leitura_mb": 310.72,
+        "escrita_mb": 0.03
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2653,
+      "prioridade": 32
+    },
+    {
+      "pid": 15476,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 73,
+        "virtual_mb": 89
+      },
+      "disco": {
+        "leitura_mb": 8.78,
+        "escrita_mb": 11.89
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190616,
+      "prioridade": 64
+    },
+    {
+      "pid": 14616,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 64,
+        "virtual_mb": 43
+      },
+      "disco": {
+        "leitura_mb": 48.02,
+        "escrita_mb": 27.61
+      },
+      "threads": 48,
+      "subprocessos": 5,
+      "tempo_execucao_segundos": 190618,
+      "prioridade": 32
+    },
+    {
+      "pid": 188,
+      "nome": "",
+      "usuario": null,
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 63,
+        "virtual_mb": 0
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 0,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190643,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8672,
+      "nome": "MSPCManagerService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 62,
+        "virtual_mb": 31
+      },
+      "disco": {
+        "leitura_mb": 2.36,
+        "escrita_mb": 0.31
+      },
+      "threads": 22,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": 32
+    },
+    {
+      "pid": 15916,
+      "nome": "PhoneExperienceHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 61,
+        "virtual_mb": 96
+      },
+      "disco": {
+        "leitura_mb": 0.49,
+        "escrita_mb": 0.02
+      },
+      "threads": 71,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190608,
+      "prioridade": 32
+    },
+    {
+      "pid": 17000,
+      "nome": "TextInputHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 60,
+        "virtual_mb": 123
+      },
+      "disco": {
+        "leitura_mb": 1.01,
+        "escrita_mb": 0.03
+      },
+      "threads": 38,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190610,
+      "prioridade": 128
+    },
+    {
+      "pid": 24828,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 55,
+        "virtual_mb": 30
+      },
+      "disco": {
+        "leitura_mb": 27.87,
+        "escrita_mb": 28.51
+      },
+      "threads": 28,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2657,
+      "prioridade": 32
+    },
+    {
+      "pid": 21268,
+      "nome": "ShellExperienceHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 54,
+        "virtual_mb": 50
+      },
+      "disco": {
+        "leitura_mb": 0.66,
+        "escrita_mb": 0.01
+      },
+      "threads": 19,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 188225,
+      "prioridade": 32
+    },
+    {
+      "pid": 2988,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 53,
+        "virtual_mb": 26
+      },
+      "disco": {
+        "leitura_mb": 42.88,
+        "escrita_mb": 122.91
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5570,
+      "prioridade": 32
+    },
+    {
+      "pid": 21280,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 52,
+        "virtual_mb": 23
+      },
+      "disco": {
+        "leitura_mb": 0.12,
+        "escrita_mb": 0.08
+      },
+      "threads": 23,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1191,
+      "prioridade": 64
+    },
+    {
+      "pid": 23940,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 52,
+        "virtual_mb": 15
+      },
+      "disco": {
+        "leitura_mb": 4.03,
+        "escrita_mb": 1.0
+      },
+      "threads": 20,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1420,
+      "prioridade": 32
+    },
+    {
+      "pid": 27580,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 50,
+        "virtual_mb": 21
+      },
+      "disco": {
+        "leitura_mb": 0.7,
+        "escrita_mb": 0.64
+      },
+      "threads": 20,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1194,
+      "prioridade": 64
+    },
+    {
+      "pid": 16272,
+      "nome": "ollama.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 48,
+        "virtual_mb": 1660
+      },
+      "disco": {
+        "leitura_mb": 66.17,
+        "escrita_mb": 0.0
+      },
+      "threads": 34,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 5348,
+      "prioridade": 32
+    },
+    {
+      "pid": 22724,
+      "nome": "ShellHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 47,
+        "virtual_mb": 38
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 4765,
+      "prioridade": 32
+    },
+    {
+      "pid": 7540,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 45,
+        "virtual_mb": 95
+      },
+      "disco": {
+        "leitura_mb": 4.24,
+        "escrita_mb": 1.25
+      },
+      "threads": 21,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190615,
+      "prioridade": 32768
+    },
+    {
+      "pid": 7852,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 43,
+        "virtual_mb": 25
+      },
+      "disco": {
+        "leitura_mb": 1.89,
+        "escrita_mb": 0.19
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 79872,
+      "prioridade": 32
+    },
+    {
+      "pid": 13972,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 43,
+        "virtual_mb": 17
+      },
+      "disco": {
+        "leitura_mb": 0.65,
+        "escrita_mb": 0.04
+      },
+      "threads": 18,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 15860,
+      "nome": "ollama app.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 43,
+        "virtual_mb": 51
+      },
+      "disco": {
+        "leitura_mb": 3.56,
+        "escrita_mb": 0.12
+      },
+      "threads": 14,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 5349,
+      "prioridade": 32
+    },
+    {
+      "pid": 17584,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 43,
+        "virtual_mb": 43
+      },
+      "disco": {
+        "leitura_mb": 3.44,
+        "escrita_mb": 0.08
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5553,
+      "prioridade": 32
+    },
+    {
+      "pid": 13440,
+      "nome": "Widgets.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 41,
+        "virtual_mb": 17
+      },
+      "disco": {
+        "leitura_mb": 3.39,
+        "escrita_mb": 74.65
+      },
+      "threads": 16,
+      "subprocessos": 6,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 27336,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 39,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 2131.48,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 4158,
+      "prioridade": 32
+    },
+    {
+      "pid": 2052,
+      "nome": "XboxPcAppFT.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 38,
+        "virtual_mb": 16
+      },
+      "disco": {
+        "leitura_mb": 1.69,
+        "escrita_mb": 0.03
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 183220,
+      "prioridade": 32
+    },
+    {
+      "pid": 4796,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 37,
+        "virtual_mb": 45
+      },
+      "disco": {
+        "leitura_mb": 298.32,
+        "escrita_mb": 241.99
+      },
+      "threads": 19,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 9228,
+      "nome": "nvcontainer.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 37,
+        "virtual_mb": 66
+      },
+      "disco": {
+        "leitura_mb": 86.14,
+        "escrita_mb": 1.91
+      },
+      "threads": 62,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 32
+    },
+    {
+      "pid": 25048,
+      "nome": "Code.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 35,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1420,
+      "prioridade": 32
+    },
+    {
+      "pid": 12600,
+      "nome": "FnHotkeyUtility.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 33,
+        "virtual_mb": 60
+      },
+      "disco": {
+        "leitura_mb": 0.7,
+        "escrita_mb": 0.1
+      },
+      "threads": 17,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 32
+    },
+    {
+      "pid": 4000,
+      "nome": "audiodg.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 32,
+        "virtual_mb": 32
+      },
+      "disco": {
+        "leitura_mb": 4.89,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 140,
+      "prioridade": 32
+    },
+    {
+      "pid": 17532,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 32,
+        "virtual_mb": 20
+      },
+      "disco": {
+        "leitura_mb": 9.38,
+        "escrita_mb": 0.08
+      },
+      "threads": 28,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 162,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 29556,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 32,
+        "virtual_mb": 76
+      },
+      "disco": {
+        "leitura_mb": 0.09,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5554,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5044,
+      "nome": "LenovoVantageService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 31,
+        "virtual_mb": 46
+      },
+      "disco": {
+        "leitura_mb": 114.04,
+        "escrita_mb": 0.05
+      },
+      "threads": 21,
+      "subprocessos": 4,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1532,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 30,
+        "virtual_mb": 16
+      },
+      "disco": {
+        "leitura_mb": 1.25,
+        "escrita_mb": 0.21
+      },
+      "threads": 18,
+      "subprocessos": 100,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 19616,
+      "nome": "taskhostw.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 30,
+        "virtual_mb": 8
+      },
+      "disco": {
+        "leitura_mb": 0.94,
+        "escrita_mb": 0.08
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 74576,
+      "prioridade": 32
+    },
+    {
+      "pid": 28664,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 30,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.07,
+        "escrita_mb": 0.05
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 79875,
+      "prioridade": 32
+    },
+    {
+      "pid": 232,
+      "nome": "Registry",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 29,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 0.02,
+        "escrita_mb": 288.55
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190643,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8140,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 29,
+        "virtual_mb": 16
+      },
+      "disco": {
+        "leitura_mb": 5.27,
+        "escrita_mb": 9.36
+      },
+      "threads": 25,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190615,
+      "prioridade": 32
+    },
+    {
+      "pid": 8688,
+      "nome": "gamingservices.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 29,
+        "virtual_mb": 13
+      },
+      "disco": {
+        "leitura_mb": 13.36,
+        "escrita_mb": 10.51
+      },
+      "threads": 22,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10220,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 29,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 3.17,
+        "escrita_mb": 42.32
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": 32
+    },
+    {
+      "pid": 28772,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 29,
+        "virtual_mb": 15
+      },
+      "disco": {
+        "leitura_mb": 0.05,
+        "escrita_mb": 0.04
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1192,
+      "prioridade": 64
+    },
+    {
+      "pid": 10560,
+      "nome": "sihost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 28,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 2.29,
+        "escrita_mb": 0.0
+      },
+      "threads": 17,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 22172,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 27,
+        "virtual_mb": 18
+      },
+      "disco": {
+        "leitura_mb": 0.02,
+        "escrita_mb": 0.03
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2649,
+      "prioridade": 32
+    },
+    {
+      "pid": 3344,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 26,
+        "virtual_mb": 16
+      },
+      "disco": {
+        "leitura_mb": 39.19,
+        "escrita_mb": 63.84
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190489,
+      "prioridade": 32
+    },
+    {
+      "pid": 5496,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 26,
+        "virtual_mb": 34
+      },
+      "disco": {
+        "leitura_mb": 0.94,
+        "escrita_mb": 0.72
+      },
+      "threads": 23,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190504,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 9988,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 26,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 161.52,
+        "escrita_mb": 0.0
+      },
+      "threads": 17,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12260,
+      "nome": "CrossDeviceResume.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 26,
+        "virtual_mb": 42
+      },
+      "disco": {
+        "leitura_mb": 1.98,
+        "escrita_mb": 0.03
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": 32
+    },
+    {
+      "pid": 20780,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 26,
+        "virtual_mb": 20
+      },
+      "disco": {
+        "leitura_mb": 1.06,
+        "escrita_mb": 1.59
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2656,
+      "prioridade": 32
+    },
+    {
+      "pid": 3120,
+      "nome": "NVDisplay.Container.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 31
+      },
+      "disco": {
+        "leitura_mb": 34.77,
+        "escrita_mb": 60.0
+      },
+      "threads": 42,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4164,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 23
+      },
+      "disco": {
+        "leitura_mb": 206.72,
+        "escrita_mb": 14.12
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8504,
+      "nome": "syncthing.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 40
+      },
+      "disco": {
+        "leitura_mb": 32.88,
+        "escrita_mb": 6.26
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190610,
+      "prioridade": 16384
+    },
+    {
+      "pid": 10700,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 14
+      },
+      "disco": {
+        "leitura_mb": 18.65,
+        "escrita_mb": 12.6
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 15964,
+      "nome": "SearchIndexer.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 27
+      },
+      "disco": {
+        "leitura_mb": 4277.42,
+        "escrita_mb": 14.07
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190616,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 16532,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 25,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 2.72,
+        "escrita_mb": 0.95
+      },
+      "threads": 18,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 79662,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4900,
+      "nome": "OfficeClickToRun.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 24,
+        "virtual_mb": 38
+      },
+      "disco": {
+        "leitura_mb": 8.93,
+        "escrita_mb": 0.85
+      },
+      "threads": 21,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 7460,
+      "nome": "mysqld.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 24,
+        "virtual_mb": 604
+      },
+      "disco": {
+        "leitura_mb": 24.95,
+        "escrita_mb": 114.87
+      },
+      "threads": 41,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8664,
+      "nome": "IntelGraphicsSoftware.Service.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 22,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 18,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12340,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 22,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 12.35,
+        "escrita_mb": 22.87
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5573,
+      "prioridade": 32
+    },
+    {
+      "pid": 16060,
+      "nome": "ctfmon.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 22,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190615,
+      "prioridade": 128
+    },
+    {
+      "pid": 27908,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 22,
+        "virtual_mb": 10
+      },
+      "disco": {
+        "leitura_mb": 0.05,
+        "escrita_mb": 0.08
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5554,
+      "prioridade": 32
+    },
+    {
+      "pid": 5348,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 21,
+        "virtual_mb": 16
+      },
+      "disco": {
+        "leitura_mb": 60.34,
+        "escrita_mb": 1.22
+      },
+      "threads": 21,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10860,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 21,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.17,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 16704,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 21,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 188224,
+      "prioridade": 32
+    },
+    {
+      "pid": 4668,
+      "nome": "nvcontainer.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 20,
+        "virtual_mb": 13
+      },
+      "disco": {
+        "leitura_mb": 7.8,
+        "escrita_mb": 2.07
+      },
+      "threads": 30,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 6452,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 20,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.14,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 3260,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 19,
+        "virtual_mb": 17
+      },
+      "disco": {
+        "leitura_mb": 503.31,
+        "escrita_mb": 72.33
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3356,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 19,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 1.97,
+        "escrita_mb": 40.69
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5680,
+      "nome": "NVDisplay.Container.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 19,
+        "virtual_mb": 159
+      },
+      "disco": {
+        "leitura_mb": 26.91,
+        "escrita_mb": 4.97
+      },
+      "threads": 27,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10088,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 19,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 2.02,
+        "escrita_mb": 0.28
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 17628,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 19,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.32,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 7141,
+      "prioridade": 32
+    },
+    {
+      "pid": 200,
+      "nome": "AccountsControlHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 18,
+        "virtual_mb": 41
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 16,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 169907,
+      "prioridade": 32
+    },
+    {
+      "pid": 1360,
+      "nome": "lsass.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 18,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 6.2,
+        "escrita_mb": 1.26
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 16820,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 18,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.47
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190613,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1692,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 17,
+        "virtual_mb": 13
+      },
+      "disco": {
+        "leitura_mb": 0.32,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5392,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 17,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.69,
+        "escrita_mb": 11.7
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2684,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 20,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4012,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 15
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.03
+      },
+      "threads": 16,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4292,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 29.85,
+        "escrita_mb": 0.06
+      },
+      "threads": 15,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5088,
+      "nome": "MpDefenderCoreService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 15
+      },
+      "disco": {
+        "leitura_mb": 8.96,
+        "escrita_mb": 0.08
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 11372,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.02,
+        "escrita_mb": 0.03
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 18736,
+      "nome": "SecurityHealthService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 16,
+        "virtual_mb": 8
+      },
+      "disco": {
+        "leitura_mb": 3.15,
+        "escrita_mb": 0.5
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190586,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3708,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 15,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 6.94,
+        "escrita_mb": 22.47
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4460,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 3.09,
+        "escrita_mb": 0.05
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10584,
+      "nome": "ApplicationFrameHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 59
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190520,
+      "prioridade": 32
+    },
+    {
+      "pid": 13256,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190613,
+      "prioridade": 32
+    },
+    {
+      "pid": 18556,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 43
+      },
+      "disco": {
+        "leitura_mb": 33.62,
+        "escrita_mb": 31.6
+      },
+      "threads": 55,
+      "subprocessos": 5,
+      "tempo_execucao_segundos": 190556,
+      "prioridade": 32
+    },
+    {
+      "pid": 22512,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.02
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 183226,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 22904,
+      "nome": "pet.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 14,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.09
+      },
+      "threads": 14,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 1391,
+      "prioridade": 32
+    },
+    {
+      "pid": 1228,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 13,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1340,
+      "nome": "OpenConsole.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 13,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.25
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1125,
+      "prioridade": 32
+    },
+    {
+      "pid": 17420,
+      "nome": "Spotify.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 13,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2658,
+      "prioridade": 32
+    },
+    {
+      "pid": 19004,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 13,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 2.7,
+        "escrita_mb": 0.04
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190583,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 20124,
+      "nome": "OpenConsole.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 13,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1390,
+      "prioridade": 32
+    },
+    {
+      "pid": 2300,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 24.18
+      },
+      "threads": 10,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3804,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 11,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 7668,
+      "nome": "WmiPrvSE.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 10
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 7984,
+      "nome": "taskhostw.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 1.95,
+        "escrita_mb": 100.31
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 32
+    },
+    {
+      "pid": 11808,
+      "nome": "AppActions.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 12
+      },
+      "disco": {
+        "leitura_mb": 0.21,
+        "escrita_mb": 0.05
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190022,
+      "prioridade": 32
+    },
+    {
+      "pid": 18988,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 12,
+        "virtual_mb": 8
+      },
+      "disco": {
+        "leitura_mb": 0.05,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190507,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1564,
+      "nome": "WUDFHost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 11,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 5.66,
+        "escrita_mb": 0.0
+      },
+      "threads": 25,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 9776,
+      "nome": "AggregatorHost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 11,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 86.48,
+        "escrita_mb": 0.35
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 24928,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 11,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2356,
+      "prioridade": 32
+    },
+    {
+      "pid": 11396,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.31,
+        "escrita_mb": 0.09
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 13996,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.04,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 14732,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.1,
+        "escrita_mb": 0.23
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 79662,
+      "prioridade": 32
+    },
+    {
+      "pid": 17996,
+      "nome": "LenovoVantage-(VantageCoreAddin).exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 32
+      },
+      "disco": {
+        "leitura_mb": 73.31,
+        "escrita_mb": 0.6
+      },
+      "threads": 22,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190590,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 18184,
+      "nome": "unsecapp.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190589,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 19828,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5349,
+      "prioridade": 32
+    },
+    {
+      "pid": 20876,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 547,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 20972,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5350,
+      "prioridade": 32
+    },
+    {
+      "pid": 26196,
+      "nome": "chrome.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 10,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5576,
+      "prioridade": 32
+    },
+    {
+      "pid": 1292,
+      "nome": "services.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.04,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 257,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2744,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 3,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3620,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5076,
+      "nome": "NahimicService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5116,
+      "nome": "LenovoUtilityService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 22
+      },
+      "disco": {
+        "leitura_mb": 22.83,
+        "escrita_mb": 1.23
+      },
+      "threads": 7,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12744,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 71861,
+      "prioridade": 32
+    },
+    {
+      "pid": 13740,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.08,
+        "escrita_mb": 0.12
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190520,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 18084,
+      "nome": "NhNotifSys.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 24
+      },
+      "disco": {
+        "leitura_mb": 0.13,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190595,
+      "prioridade": 32
+    },
+    {
+      "pid": 22572,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 85424,
+      "prioridade": 32
+    },
+    {
+      "pid": 24068,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 70121,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 30516,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 9,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1392,
+      "prioridade": 32
+    },
+    {
+      "pid": 896,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1812,
+      "nome": "WUDFHost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 8
+      },
+      "disco": {
+        "leitura_mb": 0.07,
+        "escrita_mb": 0.02
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2308,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2656,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5008,
+      "nome": "IntelAudioService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 40
+      },
+      "disco": {
+        "leitura_mb": 0.16,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5388,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190623,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8524,
+      "nome": "cmd.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 4,
+      "tempo_execucao_segundos": 5348,
+      "prioridade": 32
+    },
+    {
+      "pid": 11672,
+      "nome": "LenovoVantage-(GenericMessagingAddin).exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 38
+      },
+      "disco": {
+        "leitura_mb": 11.06,
+        "escrita_mb": 0.94
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190284,
+      "prioridade": 64
+    },
+    {
+      "pid": 12048,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 13964,
+      "nome": "WidgetService.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 14148,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 70782,
+      "prioridade": 32
+    },
+    {
+      "pid": 14776,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 10
+      },
+      "disco": {
+        "leitura_mb": 1.58,
+        "escrita_mb": 3.33
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190616,
+      "prioridade": 32
+    },
+    {
+      "pid": 19372,
+      "nome": "IGCC.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 44
+      },
+      "disco": {
+        "leitura_mb": 0.09,
+        "escrita_mb": 0.01
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190493,
+      "prioridade": 32
+    },
+    {
+      "pid": 21536,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 8,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 7202,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1992,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2196,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3104,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3552,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3964,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4328,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 4.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4468,
+      "nome": "spoolsv.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4868,
+      "nome": "GameInputRedistService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 21
+      },
+      "disco": {
+        "leitura_mb": 0.07,
+        "escrita_mb": 0.01
+      },
+      "threads": 10,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5240,
+      "nome": "RtkAudUService64.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 2.4
+      },
+      "threads": 22,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8276,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 74644,
+      "prioridade": 32
+    },
+    {
+      "pid": 8776,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190281,
+      "prioridade": 32
+    },
+    {
+      "pid": 11288,
+      "nome": "NisSrv.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 12,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190620,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12204,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.76
+      },
+      "threads": 5,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 13432,
+      "nome": "unsecapp.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190619,
+      "prioridade": 32
+    },
+    {
+      "pid": 13944,
+      "nome": "RtkAudUService64.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190561,
+      "prioridade": 32
+    },
+    {
+      "pid": 16828,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190519,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 16832,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 7,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190611,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1320,
+      "nome": "winlogon.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.34,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1448,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 138
+      },
+      "disco": {
+        "leitura_mb": 23.13,
+        "escrita_mb": 1.73
+      },
+      "threads": 21,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190550,
+      "prioridade": 32768
+    },
+    {
+      "pid": 1484,
+      "nome": "ipf_helper.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 1.2
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190620,
+      "prioridade": 32
+    },
+    {
+      "pid": 1756,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2144,
+      "nome": "WUDFHost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2368,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2860,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 70958,
+      "prioridade": 32
+    },
+    {
+      "pid": 3604,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3612,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.01
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3668,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 9
+      },
+      "disco": {
+        "leitura_mb": 0.7,
+        "escrita_mb": 1.81
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190490,
+      "prioridade": 32
+    },
+    {
+      "pid": 4544,
+      "nome": "Raycast.UIAccess.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 74647,
+      "prioridade": 128
+    },
+    {
+      "pid": 4648,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.07,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 9572,
+      "nome": "RtkAudUService64.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 11416,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 153682,
+      "prioridade": 32
+    },
+    {
+      "pid": 11464,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12248,
+      "nome": "nvcontainer.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 5
+      },
+      "disco": {
+        "leitura_mb": 2.97,
+        "escrita_mb": 0.04
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 12860,
+      "nome": "syncthing.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 20
+      },
+      "disco": {
+        "leitura_mb": 0.89,
+        "escrita_mb": 0.88
+      },
+      "threads": 12,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 16384
+    },
+    {
+      "pid": 16756,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.62,
+        "escrita_mb": 0.11
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 84432,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 17928,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 18
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.18
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 4157,
+      "prioridade": 32
+    },
+    {
+      "pid": 18164,
+      "nome": "UserOOBEBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190519,
+      "prioridade": 32
+    },
+    {
+      "pid": 18172,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 1669,
+      "prioridade": 32
+    },
+    {
+      "pid": 18492,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190520,
+      "prioridade": 32
+    },
+    {
+      "pid": 19280,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190506,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 24364,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 85670,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 27160,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 6,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 84434,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 732,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 14
+      },
+      "disco": {
+        "leitura_mb": 12.28,
+        "escrita_mb": 14.72
+      },
+      "threads": 26,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190549,
+      "prioridade": 32
+    },
+    {
+      "pid": 2188,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3188,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 155479,
+      "prioridade": 32
+    },
+    {
+      "pid": 3348,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3372,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4056,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4824,
+      "nome": "ElevocControlService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 239
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5208,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5856,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.12,
+        "escrita_mb": 0.21
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8188,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8676,
+      "nome": "gamingservicesnet.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 13
+      },
+      "disco": {
+        "leitura_mb": 0.05,
+        "escrita_mb": 7.27
+      },
+      "threads": 40,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190626,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8768,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 143833,
+      "prioridade": 32
+    },
+    {
+      "pid": 9632,
+      "nome": "LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 28
+      },
+      "disco": {
+        "leitura_mb": 0.24,
+        "escrita_mb": 0.0
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190280,
+      "prioridade": 64
+    },
+    {
+      "pid": 12560,
+      "nome": "FnHotkeyCapsLKNumLK.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 21
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 32
+    },
+    {
+      "pid": 14460,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 151883,
+      "prioridade": 32
+    },
+    {
+      "pid": 18712,
+      "nome": "SecurityHealthSystray.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190586,
+      "prioridade": 32
+    },
+    {
+      "pid": 22016,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 74650,
+      "prioridade": 32
+    },
+    {
+      "pid": 24280,
+      "nome": "dllhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 5,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 84758,
+      "prioridade": 32
+    },
+    {
+      "pid": 2032,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3084,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3848,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3956,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4704,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.18,
+        "escrita_mb": 0.2
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4804,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5652,
+      "nome": "LSB.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 75
+      },
+      "disco": {
+        "leitura_mb": 1.33,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190320,
+      "prioridade": 16384
+    },
+    {
+      "pid": 5896,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 163667,
+      "prioridade": 32
+    },
+    {
+      "pid": 8868,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 152867,
+      "prioridade": 32
+    },
+    {
+      "pid": 10288,
+      "nome": "windhawk.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 10692,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 11564,
+      "nome": "unsecapp.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": 32
+    },
+    {
+      "pid": 12128,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 157282,
+      "prioridade": 32
+    },
+    {
+      "pid": 14160,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 151047,
+      "prioridade": 32
+    },
+    {
+      "pid": 14988,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190617,
+      "prioridade": 32
+    },
+    {
+      "pid": 15680,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 10,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190493,
+      "prioridade": 32
+    },
+    {
+      "pid": 16904,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.02
+      },
+      "threads": 7,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 185501,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 17656,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 149269,
+      "prioridade": 32
+    },
+    {
+      "pid": 18160,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 9,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190556,
+      "prioridade": 32
+    },
+    {
+      "pid": 19112,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190566,
+      "prioridade": 32
+    },
+    {
+      "pid": 19404,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190506,
+      "prioridade": 32
+    },
+    {
+      "pid": 20116,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 145669,
+      "prioridade": 32
+    },
+    {
+      "pid": 20660,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190283,
+      "prioridade": 32
+    },
+    {
+      "pid": 21032,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 148284,
+      "prioridade": 32
+    },
+    {
+      "pid": 22792,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 161836,
+      "prioridade": 32
+    },
+    {
+      "pid": 23464,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 150084,
+      "prioridade": 32
+    },
+    {
+      "pid": 28076,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 159136,
+      "prioridade": 32
+    },
+    {
+      "pid": 28164,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 73670,
+      "prioridade": 32
+    },
+    {
+      "pid": 28512,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 147436,
+      "prioridade": 32
+    },
+    {
+      "pid": 29104,
+      "nome": "RuntimeBroker.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 4,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 178864,
+      "prioridade": 32
+    },
+    {
+      "pid": 1100,
+      "nome": "csrss.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.33,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190629,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1584,
+      "nome": "fontdrvhost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 6
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2360,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2376,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2908,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3092,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3192,
+      "nome": "wlanext.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.03,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190623,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3280,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4836,
+      "nome": "ipfsvc.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 8,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5036,
+      "nome": "ipf_uf.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.05
+      },
+      "threads": 6,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5216,
+      "nome": "mysqld.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 34
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5296,
+      "nome": "ReadyForService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5460,
+      "nome": "windhawk.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5468,
+      "nome": "WMIRegistrationService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 7404,
+      "nome": "GameInputRedistService.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190623,
+      "prioridade": 32
+    },
+    {
+      "pid": 9612,
+      "nome": "PresentMonService.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 10
+      },
+      "disco": {
+        "leitura_mb": 1.59,
+        "escrita_mb": 0.0
+      },
+      "threads": 13,
+      "subprocessos": 1,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10460,
+      "nome": "NahimicAPO4Volume.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 10776,
+      "nome": "svchost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190624,
+      "prioridade": 32
+    },
+    {
+      "pid": 11436,
+      "nome": "NgcIso.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 3
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 1,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190622,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 16940,
+      "nome": "WmiApSrv.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190288,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 19124,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2563,
+      "prioridade": 32
+    },
+    {
+      "pid": 24060,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 165436,
+      "prioridade": 32
+    },
+    {
+      "pid": 26764,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.01,
+        "escrita_mb": 0.0
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 2356,
+      "prioridade": 32
+    },
+    {
+      "pid": 27912,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 3,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 160070,
+      "prioridade": 32
+    },
+    {
+      "pid": 1216,
+      "nome": "wininit.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.02,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 261,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1964,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 2316,
+      "nome": "IntelCpHDCPSvc.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3364,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 6,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 4880,
+      "nome": "armsvc.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5096,
+      "nome": "jhi_service.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 7480,
+      "nome": "conhost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 8352,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 74560,
+      "prioridade": 32
+    },
+    {
+      "pid": 9224,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5267,
+      "prioridade": 32
+    },
+    {
+      "pid": 9844,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10344,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 75459,
+      "prioridade": 32
+    },
+    {
+      "pid": 10768,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 82634,
+      "prioridade": 32
+    },
+    {
+      "pid": 12900,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 7
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190621,
+      "prioridade": 16384
+    },
+    {
+      "pid": 13248,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190520,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 15836,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 168083,
+      "prioridade": 32
+    },
+    {
+      "pid": 20852,
+      "nome": "jusched.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190473,
+      "prioridade": 32
+    },
+    {
+      "pid": 25820,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 4158,
+      "prioridade": 32
+    },
+    {
+      "pid": 27640,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 5951,
+      "prioridade": 32
+    },
+    {
+      "pid": 29340,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 2,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 84515,
+      "prioridade": 32
+    },
+    {
+      "pid": 748,
+      "nome": "smss.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 2.72,
+        "escrita_mb": 0.03
+      },
+      "threads": 2,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190640,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1352,
+      "nome": "LsaIso.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 1,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 1592,
+      "nome": "fontdrvhost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 5,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190627,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 3824,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 79967,
+      "prioridade": 32
+    },
+    {
+      "pid": 3872,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 193
+      },
+      "disco": {
+        "leitura_mb": 103.74,
+        "escrita_mb": 52.25
+      },
+      "threads": 24,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190552,
+      "prioridade": 64
+    },
+    {
+      "pid": 4224,
+      "nome": "conhost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190319,
+      "prioridade": 16384
+    },
+    {
+      "pid": 5320,
+      "nome": "svchost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 2
+      },
+      "disco": {
+        "leitura_mb": 0.02,
+        "escrita_mb": 0.0
+      },
+      "threads": 4,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190628,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 5816,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 172644,
+      "prioridade": 32
+    },
+    {
+      "pid": 8804,
+      "nome": "cmd.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 4
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 2,
+      "subprocessos": 2,
+      "tempo_execucao_segundos": 190321,
+      "prioridade": 16384
+    },
+    {
+      "pid": 9620,
+      "nome": "conhost.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190625,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 10572,
+      "nome": "SystemSettings.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 158
+      },
+      "disco": {
+        "leitura_mb": 38.13,
+        "escrita_mb": 0.03
+      },
+      "threads": 45,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190520,
+      "prioridade": 32
+    },
+    {
+      "pid": 13384,
+      "nome": "Locator.exe",
+      "usuario": null,
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 1
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 3,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190287,
+      "prioridade": "N/A"
+    },
+    {
+      "pid": 14188,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 84468,
+      "prioridade": 32
+    },
+    {
+      "pid": 14908,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 171734,
+      "prioridade": 32
+    },
+    {
+      "pid": 17556,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 186132,
+      "prioridade": 32
+    },
+    {
+      "pid": 20132,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 170869,
+      "prioridade": 32
+    },
+    {
+      "pid": 23756,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 18
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 78171,
+      "prioridade": 32
+    },
+    {
+      "pid": 23848,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 182533,
+      "prioridade": 32
+    },
+    {
+      "pid": 24956,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 181670,
+      "prioridade": 32
+    },
+    {
+      "pid": 28020,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 80872,
+      "prioridade": 32
+    },
+    {
+      "pid": 28344,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 1,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 14,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 83536,
+      "prioridade": 32
+    },
+    {
+      "pid": 2460,
+      "nome": "msedgewebview2.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "running",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 0,
+        "virtual_mb": 11
+      },
+      "disco": {
+        "leitura_mb": 38.97,
+        "escrita_mb": 87.04
+      },
+      "threads": 11,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 190551,
+      "prioridade": 32
+    },
+    {
+      "pid": 4588,
+      "nome": "backgroundTaskHost.exe",
+      "usuario": "laptop-NZ13\\NZ13",
+      "status": "stopped",
+      "cpu": {
+        "uso_percentual": 0.0
+      },
+      "ram": {
+        "uso_mb": 0,
+        "virtual_mb": 19
+      },
+      "disco": {
+        "leitura_mb": 0.0,
+        "escrita_mb": 0.0
+      },
+      "threads": 15,
+      "subprocessos": 0,
+      "tempo_execucao_segundos": 174924,
+      "prioridade": 32
+    }
+  ]
+}

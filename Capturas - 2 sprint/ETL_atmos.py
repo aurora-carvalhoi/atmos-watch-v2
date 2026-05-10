@@ -303,9 +303,12 @@ def salvar_client_s3(json_data, empresa):
     Salva JSON final (client)
     """
     key = f"client/{empresa}/client.json"
-    # # salvar local para teste
-    with open('Json_s3.json', 'w', encoding="utf-8") as a:
-        json.dump(json_data, a, indent=4, ensure_ascii=False)
+    # # salvar local para teste =================================
+    
+    # with open('Json_s3.json', 'w', encoding="utf-8") as a:
+    #     json.dump(json_data, a, indent=4, ensure_ascii=False)
+    
+    # ===========================================================
     s3.put_object(
         Bucket=NOME_BUCKET,
         Key=key,
