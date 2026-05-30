@@ -2,25 +2,32 @@ import boto3       #SDK da AWS — usada pra acessar o S3
 import csv         #lê e interpreta arquivos CSV
 import json        #converte dicionários Python em JSON
 import io          #permite tratar texto como se fosse um arquivo
+import os          #acessa variáveis de ambiente
 import calendar    #calendário (pra saber quantos dias tem o mês)
-from datetime import datetime, date  # manipulação de datas e horários
+from datetime import datetime, date, timezone  #manipulação de datas e horários
 
-#conexão com o S3
+#conexão com o S3 (Lambda usa IAM role, sem credenciais explícitas)
 s3 = boto3.client('s3')
 
 #configurações
-BUCKET = 'nome_bucket_aqui' # nome do bucket no S3
+BUCKET = os.getenv('S3_BUCKET_NAME')
 
-#nomes das colunas no CSV de métricas, tem q ajustar com a etl do kaio 
+LIMITES = {
+    "cpu_perc":   90,
+    "ram_perc":   80,
+    "disco_perc": 85
+}
+
+#nomes das colunas do csv de métricas
 COL_TIMESTAMP = 'datahora'
 COL_CPU = 'cpu_perc'
 COL_RAM = 'ram_perc'
 COL_DISCO = 'disco_perc'
-
+COL_HOSTNAME = 'hostname'
 
 #aqui inicia a lambda
 def lambda_handler(event, _):
-    
+
     empresa = event['empresa']
 
     hoje = date.today()
@@ -30,7 +37,7 @@ def lambda_handler(event, _):
     data_inicio = date(ano, mes, 1)                 #primeiro dia do mês
     data_fim = date(ano, mes, total_dias)         #último dia do mês
 
-    #Aqui é onde ele buscaria o "raw" da empresa, tem q arrumar de acordo com nosso bucket
+    #Aqui é onde ele busca o "raw" da empresa
     prefix = f"raw/{empresa}/"
 
     incidentes = {}  #esse dicionario vai ser usado pro heatmap
@@ -42,33 +49,28 @@ def lambda_handler(event, _):
 
     for page in pages:
         for obj in page.get('Contents', []):
-            chave = obj['Key']  #caminho completo do arquivo no S3, precisa ajustar isso aqui
+            chave = obj['Key']  #caminho completo do arquivo no S3
 
             if not chave.endswith('.csv'):
                 continue
 
             csv_obj = s3.get_object(Bucket=BUCKET, Key=chave)
             conteudo = csv_obj['Body'].read().decode('utf-8')
-
             reader = csv.DictReader(io.StringIO(conteudo))
             if not reader.fieldnames:
                 continue
 
-            #Aqui ele vai ver qual dicionario ele vai alimentar:
-            if 'tipo_incidente' in reader.fieldnames:
-                processar_incidente(reader, data_inicio, data_fim, incidentes)
-            else:
-                # O servidor é identificado pelo caminho: raw/{empresa}/{hostname}/arquivo.csv
-                partes = chave.split('/')
-                if len(partes) < 4:
-                    continue
-                servidor = partes[2]  #terceiro segmento do caminho = hostname
-                processar_metrica(reader, data_inicio, data_fim, metricas, servidor)
+            #Aqui ele vai alimentar os dicionários
+            processar_incidente(reader, data_inicio, data_fim, incidentes)
+
+            # relê o CSV pra processar métricas
+            reader2 = csv.DictReader(io.StringIO(conteudo))
+            processar_metrica(reader2, data_inicio, data_fim, metricas)
 
     #json final
     output = {
         "empresa": empresa,
-        "gerado_em": datetime.now().isoformat(), #timestamp de quando a ETL rodou
+        "gerado_em": datetime.now(timezone.utc).isoformat(), #timestamp de quando a ETL rodou
         "mes_referencia": {"mes": mes, "ano": ano},
         "total_dias_mes": total_dias,
         "incidentes": incidentes, # dados pro heatmap
@@ -95,65 +97,80 @@ def lambda_handler(event, _):
 
 
 def processar_incidente(reader, data_inicio, data_fim, incidentes):
-    #processa as linhas do CSV de incidentes e agrupa por servidor.
-    #serve p/ oheatmap com quantidade de incidentes por dia.
+    #detecta incidentes comparando métricas com os limites definidos
+    #serve pro heatmap com qtd de incidentes por dia
 
     for linha in reader:
         #converte o texto do timestamp para um objeto de data real
         try:
-            ts = datetime.strptime(linha['Timestamp'], '%Y-%m-%d %H:%M:%S')
+            ts = datetime.strptime(linha[COL_TIMESTAMP], '%Y-%m-%d %H:%M:%S')
+            cpu = float(linha[COL_CPU])
+            ram = float(linha[COL_RAM])
+            disco = float(linha[COL_DISCO])
         except (ValueError, KeyError):
             continue  #pula linhas com formato inválido ou coluna ausente
 
-        data_incidente = ts.date()
+        data_registro = ts.date()
 
         #aqui ele vai ignorar se nao for do mes do filtro
-        if not (data_inicio <= data_incidente <= data_fim):
+        if not (data_inicio <= data_registro <= data_fim):
             continue
 
-        servidor = linha['servidor']
-        componente = linha['componente'].lower() 
-        data_str = data_incidente.strftime('%Y-%m-%d')
+        servidor = linha.get(COL_HOSTNAME, '')
+        data_str = data_registro.strftime('%Y-%m-%d')
+
+        #verifica quais componentes ultrapassaram o limite
+        alertas = []
+        if cpu > LIMITES['cpu_perc']: alertas.append(('cpu', cpu, LIMITES['cpu_perc']))
+        if ram > LIMITES['ram_perc']: alertas.append(('ram', ram, LIMITES['ram_perc']))
+        if disco > LIMITES['disco_perc']: alertas.append(('disco', disco, LIMITES['disco_perc']))
+
+        #se nenhum limite foi ultrapassado, pula a linha
+        if not alertas:
+            continue
 
         if servidor not in incidentes:
             incidentes[servidor] = {
                 "TotalIncidentes": {
-                    "total_mes": 0,   
-                    "por_dia":   {}   
+                    "total_mes": 0,
+                    "por_dia": {}
                 },
-                "DataIncidente": [],  
+                "DataIncidente": [],
                 "Componentes": {
-                    "cpu":   [],      
-                    "ram":   [],
+                    "cpu": [],
+                    "ram": [],
                     "disco": [],
                 },
-                "Detalhes": []
+                "detalhes": []
             }
 
         sv = incidentes[servidor]
 
         # junta os incidentes do mesmo dia
-        sv["DataIncidente"].append(data_str)
-        sv["TotalIncidentes"]["total_mes"] += 1
-        sv["TotalIncidentes"]["por_dia"][data_str] = (
-            sv["TotalIncidentes"]["por_dia"].get(data_str, 0) + 1
-        )
-        
-        #descricao p matheus usar
-        sv["detalhes"].append({
-            "data": data_str,
-            "servidor": servidor,
-            "componente": componente,
-            "descricao": linha.get('descricao', '')
-         })
+        for componente, valor, limite in alertas:
+            sv["DataIncidente"].append(data_str)
+            sv["TotalIncidentes"]["total_mes"] += 1
+            sv["TotalIncidentes"]["por_dia"][data_str] = (
+                sv["TotalIncidentes"]["por_dia"].get(data_str, 0) + 1
+            )
+
+            #descricao p matheus usar
+            sv["detalhes"].append({
+                "data": data_str,
+                "servidor": servidor,
+                "componente": componente,
+                "valor": round(valor, 2),
+                "limite": limite,
+                "descricao": f"{componente.upper()} atingiu {round(valor, 2)}% (limite: {limite}%)"
+            })
+
+            #mostra o componente q deu b.o
+            if componente in sv["Componentes"]:
+                sv["Componentes"][componente].append(data_str)
 
 
-        #mostra o componente q deu b.o
-        if componente in sv["Componentes"]:
-            sv["Componentes"][componente].append(data_str)
-
-#aqui é p coisar os graficos
-def processar_metrica(reader, data_inicio, data_fim, metricas, servidor):
+#aqui é p processar os graficos
+def processar_metrica(reader, data_inicio, data_fim, metricas):
 
     for linha in reader:
         try:
@@ -170,6 +187,7 @@ def processar_metrica(reader, data_inicio, data_fim, metricas, servidor):
         if not (data_inicio <= data_registro <= data_fim):
             continue
 
+        servidor = linha.get(COL_HOSTNAME, '')
         data_str = data_registro.strftime('%Y-%m-%d')
 
         # Inicializa a estrutura do servidor se for a primeira vez que aparece
